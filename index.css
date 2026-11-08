@@ -1,0 +1,488 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --colour1:rgba(0,101,254,1);
+}
+body{
+  width: 100%;
+  height: 10%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-image: url(/image/Hero\ section.svg);
+}
+header, nav{
+  padding: 5px;
+  display:flex;
+}
+
+header,img{
+    padding-right: 150px;
+}
+nav,a{
+  margin-right: 30px;
+  text-decoration: none;
+  padding-top:9px;
+  font-family: sans-serif;
+  font-size:3;
+  color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.free-try{
+  padding-top: 6px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+.url{
+  color: var(--colour1);
+}
+.log-in{
+  color: var(--colour1);
+}
+.free-button{
+  background-color: var(--colour1);
+  width: 130px;
+  height: 40px;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+main{
+  display: block;
+  text-align: center; 
+  background-image: url(/image/Hero\ section.svg);
+}
+.online{
+  padding-top: 60px;
+}
+.online b{
+  font-weight: 900;
+  font-size: 55px;
+  margin-left: -95px;
+}
+.online span{
+  color: var(--colour1);
+}
+.online img{
+  margin-left: 300px;
+  height: 25px;
+}
+.online p{
+  margin-top: 20px;
+  font-size: 20px;
+  padding-bottom: 0px;
+}
+.sign{
+  background-color: var(--colour1);
+  width: 130px;
+  height: 40px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  margin-right: 60px;
+  cursor: pointer;
+  padding: 10px;
+}
+.learn{
+  color: var(--colour1);
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  margin-top: 60px
+}
+.cise{
+    background-image: url(/image/Vector\ 2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:200px;
+  margin-left: 390px;
+  padding-top: 50px;
+}
+.concise{
+  margin-top: -35px;
+  margin-left: 15px;
+  border: 1px solid rgb(184,208,217,0.2);
+  width: 700px;
+  height: 170px;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(184,208,217,0.4), white);
+}
+.concise img{
+  margin-right: 50px;
+}
+.concise p{
+  margin-top: 13px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.one{
+  background-image: url(/image/Group\ 3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  padding-top: 50px;
+}
+
+.one-stop{
+  margin-top: 36.5px;
+  display:flex;
+  margin-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(184,208,217,0.2);
+  height: 200px;
+}
+.four{
+  font-size: 20px;
+}
+.Possibilities{
+  padding-left:60px;
+}
+.pos{
+  color: var(--colour1);
+}
+.user b{
+  padding-right: 100px;
+  font-size: 20px;
+}
+.user p{
+  padding-right: 50px;
+}
+.link b{
+  padding-right: 140px;
+  font-size: 20px;
+}
+.link p{
+  padding-right: 100px;
+}
+.clicked b{
+  padding-right: 180px;
+  font-size: 20px;
+}
+.clicked p{
+  padding-right: 90px;
+}
+.app b{
+  padding-right: 250px;
+}
+.app p{
+  padding-right: 180px;
+}
+section{
+  margin-top: 150px;
+}
+.scissor{
+  margin-left: 60px;
+}
+.scissor b{
+  font-size: 25px;
+}
+.scissor span{
+  color: var(--colour1);
+}
+.scissor p{
+  width: 325px;
+  margin-left: 10px;
+}
+.allow{
+  display:flex;
+  height: 200px;
+  width: 600px;
+  flex-wrap: nowrap; 
+    margin-left: 500px;
+  margin-top: -170px;
+}
+.allow b{
+  font-size: 20px;
+}
+.events{
+  padding-right: 50px;
+}
+.qr-code{
+  display:flex;
+  height: 200px;
+  width: 600px;
+  flex-wrap: nowrap; 
+    margin-left: 500px;
+  margin-top: -20px;
+}
+.qr{
+  padding-right: 50px;
+}
+.price{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.perfect h5{
+  font-size: 35px;
+  margin-left: -150px;
+  padding-bottom: 10px;
+}
+.perfect span{
+  color: var(--colour1);
+}
+.perfect p{
+  width: 500px;
+  margin-left: 350px;
+  padding-bottom: 80px;
+}
+.support{
+  display: flex;
+  margin-left: 150px;
+  width: 900px;
+  height: 360px;
+  position: relative;
+  border: 1px solid var(--colour1);
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+.basic{
+  margin-right: 50px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pros{
+  margin-right: 100px;
+  font-size: 20px;
+}
+.basic strong{
+  font-weight: bolder;
+  font-size: 30px;
+  padding-right: 80px;
+}
+.basic p{
+  padding: 10px;
+}
+.fessional{
+  margin-left:280px;
+  position: absolute;
+  margin-top: -45px;
+  height: 450px;
+  width: 320px;
+  background-color:rgba(30, 52, 72,1);
+  color: white;
+  border-radius: 10px;
+}
+.Professional{
+  padding-top: 50px;
+  
+}
+.pro{
+  margin-right: 60px;
+  font-size: 20px;
+}
+.Professional p{
+  padding: 10px;
+}
+.Professional strong{
+  font-weight: bolder;
+  font-size: 30px;
+  padding-right: 30px;
+}
+.team{
+  margin-left: 350px;
+  margin-top: 20px;
+}
+.prose{
+  font-size: 20px;
+  margin-left: -110px;
+}
+.team p{
+  padding: 10px;
+  margin-right: 55px;
+}
+.team strong{
+  font-weight: bolder;
+  font-size: 30px;
+  padding-right: 80px;
+}
+.custom{
+  margin-right: 150px;
+  margin-bottom: 60px;
+}
+.get{
+  height: 40px;
+  width: 160px;
+  border: 1px solid var(--colour1);
+  border-radius: 30px;
+  background-color: transparent;
+  color: var(--colour1);
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.pricing{
+  height: 40px;
+  width: 160px;
+  border: 1px solid var(--colour1);
+  border-radius: 30px;
+  background-color: var(--colour1);
+  color:white;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.paste{
+  text-align: center;
+  width: 100%;
+  height: 390px;
+  margin-bottom: 10px;
+  background-image: url(/image/Desktop\ -\ 11.svg);
+  padding-top: 50px;
+}
+.paste form{
+  width: 380px;
+  height: 280px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 450px;
+}
+.here{
+  padding: 10px;
+  width: 330px;
+  height: 45px;
+  border-radius: 12px;
+  border: 1px solid var(--colour1);
+  color: var(--colour1);
+  outline: none;
+  margin: 12px;
+  background-color: transparent;
+}
+.here::placeholder{
+  color: var(--colour1);
+}
+select{
+  padding: 10px;
+  width: 142px;
+  border-radius: 12px;
+  border: 1px solid var(--colour1);
+  color: var(--colour1);
+  outline: none;
+  margin: 12px;
+  background-color: transparent;
+}
+.alias{
+  padding: 10px;
+  width: 150px;
+  border-radius: 12px;
+  border: 1px solid var(--colour1);
+  color: var(--colour1);
+  outline: none;
+  margin: 12px;
+  background-color: transparent;
+}
+.alias::placeholder{
+  color: var(--colour1);
+}
+.trim{
+  padding: 10px;
+  width: 330px;
+  border-radius: 30px;
+  border: 1px solid var(--colour1);
+  color: white;
+  outline: none;
+  margin: 12px;
+  background-color: var(--colour1);
+}
+.trim-url{
+  color: var(--colour1);
+  padding: 10px;
+}
+.faqs{
+  background-image: url(/image/FAQs.svg);
+}
+.faq{
+  width: 680px;
+  height: 700px;
+  margin-left:330px;
+  padding-top: 20px;
+}
+.faq h2{
+  margin-left: 220px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.faq p{
+  padding-top: 12px;
+}
+.faq i{
+  padding-left: 660px;
+}
+aside{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-image: url(/image/Desktop\ -\ 11.svg);
+  padding-top: 70px;
+  color: white;
+}
+aside button{
+  margin-top: 20px;
+  height: 40px;
+  width: 160px;
+  border: 1px solid var(--colour1);
+  border-radius: 30px;
+  background-color: var(--colour1);
+  color:white;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+footer{
+  background-image: url(/image/FAQs.svg);
+  height: 400px;
+  width: 100%;
+  margin-top: 40px;
+}
+.marketing{
+  margin-left: 70px;
+  position: relative;
+}
+.brand i{
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 21px;
+}
+.integration{
+  display: flex;
+  width: 900px;
+  flex-wrap: nowrap;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -69px;
+  font-size: 19px;
+}
+.blog{
+  display: flex;
+  width: 900px;
+  flex-wrap: nowrap;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 50px;
+  font-size: 19px;
+}
+.mobile{
+  padding-left: 30px;
+}
+.Legal{
+  padding-left: 104px;
+}
+.divider{
+  font-size:20px;
+}
+.service{
+  margin-top:260px;
+  float: right;
+  margin-right: 100px;
+  font-size: 15px;
+}
