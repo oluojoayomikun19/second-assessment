@@ -163,6 +163,7 @@ main{
 }
 .four{
   font-size: 25px;
+  margin-right: 150px;
   
 }
 .Possibilities{
@@ -173,6 +174,7 @@ main{
 }
 .users{
   display: flex;
+  justify-content: space-between;
   font-size: 20px;
 }
 .user b{
@@ -553,19 +555,14 @@ footer{
   font-size: 19px;
   gap: 100px;
 }
-.integration p{
-  margin-top: 20px;
-}
+
 .blog{
   display: flex;
   width: 900px;
   flex-wrap: nowrap;
   margin-left: 300px;
-  margin-top: 27px;
+  margin-top: 87px;
   font-size: 19px;
-}
-.blog p{
-  margin-top: 20px;
 }
 .mobile{
   padding-left: 95px;
