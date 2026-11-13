@@ -1,6 +1,6 @@
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 :root{
@@ -8,42 +8,50 @@
 }
 body{
   width: 100%;
-  height: 10%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 header{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   background-image: url(./image/Hero\ section.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
 }
-header, nav{
+header,nav{
   padding: 5px;
   display:flex;
 }
 
 header,img{
-    padding-right: 150px;
+    margin-left: -5px;
 }
 nav,a{
   margin-right: 30px;
   text-decoration: none;
   padding-top:9px;
-  font-family: sans-serif;
+  font-size: 19px;
+  /* font-family: sans-serif; */
   font-size:3;
   color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  padding-left: 50px;
 }
 .free-try{
   padding-top: 6px;
   font-weight: bold;
   font-family: sans-serif;
-  margin-left: 20px;
+  margin-right: 70px;
 }
 .url{
   color: var(--colour1);
 }
 .log-in{
   color: var(--colour1);
+  font-size: 20px;
 }
 .free-button{
   background-color: var(--colour1);
@@ -53,14 +61,23 @@ nav,a{
   color: white;
   border-radius: 30px;
   margin-top: 5px;
+  font-size: 17px;
+  padding: 10px;
 }
 main{
   display: block;
   text-align: center; 
   background-image: url(./image/Hero\ section.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
 }
 .online{
   padding-top: 60px;
+  width: 930px;
+  margin-left: 280px;
+  
 }
 .online b{
   font-weight: 900;
@@ -71,7 +88,7 @@ main{
   color: var(--colour1);
 }
 .online img{
-  margin-left: 300px;
+  margin-left: 150px;
   height: 25px;
 }
 .online p{
@@ -89,11 +106,12 @@ main{
   margin-right: 60px;
   cursor: pointer;
   padding: 10px;
+  font-size: 15px;
 }
 .learn{
   color: var(--colour1);
-  border: none;
-  background-color: transparent;
+  border:none;
+  background-color:transparent;
   font-size: 17px;
   margin-top: 60px
 }
@@ -104,6 +122,8 @@ main{
   height:200px;
   margin-left: 390px;
   padding-top: 50px;
+  width: 100%;
+  max-width: 100%;
 }
 .concise{
   margin-top: -35px;
@@ -115,7 +135,7 @@ main{
   background: linear-gradient(to right, rgb(184,208,217,0.4), white);
 }
 .concise img{
-  margin-right: 50px;
+  margin-right: 150px;
 }
 .concise p{
   margin-top: 13px;
@@ -133,20 +153,27 @@ main{
 .one-stop{
   margin-top: 36.5px;
   display:flex;
-  margin-left: 10px;
+  margin-left:0px;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(184,208,217,0.2);
   height: 200px;
+  width: 100%;
+  max-width:100%;
 }
 .four{
-  font-size: 20px;
+  font-size: 25px;
+  
 }
 .Possibilities{
-  padding-left:60px;
+  padding-left:85px; 
 }
 .pos{
   color: var(--colour1);
+}
+.users{
+  display: flex;
+  font-size: 20px;
 }
 .user b{
   padding-right: 100px;
@@ -167,7 +194,8 @@ main{
   font-size: 20px;
 }
 .clicked p{
-  padding-right: 90px;
+  padding-right: 50px;
+  width: 250px;
 }
 .app b{
   padding-right: 250px;
@@ -177,26 +205,28 @@ main{
 }
 section{
   margin-top: 150px;
+  padding-left: 20px;
+  width: 100%;
+  max-width: 100%;
 }
 .scissor{
-  margin-left: 60px;
+  padding-left: 60px;
 }
 .scissor b{
-  font-size: 25px;
+  font-size: 35px;
 }
 .scissor span{
   color: var(--colour1);
 }
 .scissor p{
   width: 325px;
-  margin-left: 10px;
 }
 .allow{
   display:flex;
   height: 200px;
   width: 600px;
   flex-wrap: nowrap; 
-    margin-left: 500px;
+    margin-left: 600px;
   margin-top: -170px;
 }
 .allow b{
@@ -210,7 +240,7 @@ section{
   height: 200px;
   width: 600px;
   flex-wrap: nowrap; 
-    margin-left: 500px;
+    margin-left: 600px;
   margin-top: -20px;
 }
 .qr{
@@ -220,6 +250,9 @@ section{
   display: block;
   text-align: center;
   margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 80px;
 }
 .perfect h5{
   font-size: 35px;
@@ -236,30 +269,44 @@ section{
 }
 .support{
   display: flex;
-  margin-left: 150px;
+  margin-left:150px;
   width: 900px;
   height: 360px;
   position: relative;
-  border: 1px solid var(--colour1);
+  /* border: 1px solid var(--colour1); */
   border-radius: 10px;
   margin-bottom: 70px;
+  justify-content: space-between;
 }
 .basic{
-  margin-right: 50px;
-  padding: 10px;
   margin-top: 10px;
+  border: 1px solid var(--colour1);
+  width: 420px;
+  height: 360px;
+  border-radius: 10px;
 }
 .pros{
-  margin-right: 100px;
+  margin-right:290px;
   font-size: 20px;
+  margin-top: 30px;
+}
+.basic .all{
+  margin-right:160px;
+  font-size: 20px;
+  margin-top: 15px;
 }
 .basic strong{
   font-weight: bolder;
   font-size: 30px;
-  padding-right: 80px;
+  margin-left:-278px;
 }
-.basic p{
-  padding: 10px;
+.basic ul{
+  padding-left: 59px;
+  width: 250px;
+}
+.basic li{
+  padding-bottom: 10px;
+  font-size: 16px;
 }
 .fessional{
   margin-left:280px;
@@ -276,33 +323,57 @@ section{
   
 }
 .pro{
-  margin-right: 60px;
+  margin-right: 110px;
   font-size: 20px;
 }
 .Professional p{
   padding: 10px;
+  font-size: 20px;
+  padding-right: 35px;
 }
 .Professional strong{
   font-weight: bolder;
   font-size: 30px;
-  padding-right: 30px;
+  padding-right: 100px;
+}
+.Professional ul{
+  padding-left: 66px;
+  width: 300px;
+}
+.Professional li{
+  padding-bottom: 20px;
+  font-size: 18px;
 }
 .team{
-  margin-left: 350px;
+  margin-left:0px;
   margin-top: 20px;
+    margin-top: 10px;
+  border: 1px solid var(--colour1);
+  width: 400px;
+  height: 360px;
+  border-radius: 10px;
+  padding-top: 20px;
 }
 .prose{
-  font-size: 20px;
-  margin-left: -110px;
+  margin-left: -150px;
 }
 .team p{
   padding: 10px;
-  margin-right: 55px;
+  padding-left: 65px;
+  font-size: 20px;
+  margin-top: -5px;
 }
 .team strong{
   font-weight: bolder;
   font-size: 30px;
-  padding-right: 80px;
+  padding-right:10px;
+}
+.team ul{
+  padding-left: 140px;
+  width: 350px;
+}
+.team li{
+  padding-bottom: 10px;
 }
 .custom{
   margin-right: 150px;
@@ -333,9 +404,12 @@ section{
 .paste{
   text-align: center;
   width: 100%;
+  max-width: 100%;
   height: 390px;
   margin-bottom: 10px;
   background-image: url(./image/Desktop\ -\ 11.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 50px;
 }
 .paste form{
@@ -400,15 +474,27 @@ select{
 }
 .faqs{
   background-image: url(./image/FAQs.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
 }
 .faq{
-  width: 680px;
+  width: 620px;
   height: 700px;
   margin-left:330px;
   padding-top: 20px;
 }
+.logo{
+  width: 5px;
+  height: 30px;
+  background: linear-gradient(to bottom, rgb(0,0,0,1),rgba(255,255,255,1));
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 1px;
+}
 .faq h2{
-  margin-left: 220px;
+  margin-left: 250px;
   padding-bottom: 20px;
   font-size: 30px;
 }
@@ -416,13 +502,16 @@ select{
   padding-top: 12px;
 }
 .faq i{
-  padding-left: 660px;
+  padding-left: 600px;
 }
 aside{
   width: 100%;
+  max-width: 100%;
   height: 200px;
   text-align: center;
   background-image: url(./image/Desktop\ -\ 11.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 70px;
   color: white;
 }
@@ -440,7 +529,9 @@ aside button{
 }
 footer{
   background-image: url(./image/FAQs.svg);
-  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
   width: 100%;
   margin-top: 40px;
 }
@@ -457,32 +548,38 @@ footer{
   display: flex;
   width: 900px;
   flex-wrap: nowrap;
-  position: absolute;
   margin-left: 300px;
   margin-top: -69px;
   font-size: 19px;
+  gap: 100px;
+}
+.integration p{
+  margin-top: 20px;
 }
 .blog{
   display: flex;
   width: 900px;
   flex-wrap: nowrap;
-  position: absolute;
   margin-left: 300px;
-  margin-top: 50px;
+  margin-top: 27px;
   font-size: 19px;
 }
+.blog p{
+  margin-top: 20px;
+}
 .mobile{
-  padding-left: 30px;
+  padding-left: 95px;
 }
 .Legal{
-  padding-left: 104px;
+  padding-left: 50px;
 }
 .divider{
   font-size:20px;
 }
 .service{
-  margin-top:260px;
+  margin-top:20px;
   float: right;
   margin-right: 100px;
   font-size: 15px;
+  margin-bottom: 20px;
 }
